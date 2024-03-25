@@ -18,5 +18,6 @@ android:text="@string/Text_Info"
 ```
 Jag verifierade att allt såg ut som planerat och tog en skärmdump som är bifogad i projektet.
 
+
 ![](android.png)
 
