@@ -1,9 +1,23 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+Jag började med att ändra namnet på appen under Java -> res -> values -> strings.xml till
+"MyAmazingApp". Detta kan ses i koden nedanför.
 
-_Du kan ta bort all text som finns sedan tidigare_.
+<string name="app_name">MyAmazingApp</string>
+
+Nästa steg var att ändra texten i mitten av skärmen. Jag skapade en ny stringvariabel "Text_Info" i
+strings.xml där jag skrev "This is my amazing app". Detta kan ses i koden nedanför.
+
+<string name="Text_Info">This is my amazing app</string>
+
+Därefter gick jag in i res -> layout -> activity_main.xml och under "TextView" skrev jag in 
+"Text_info". Detta kan ses i koden nedanför.
+
+android:text="@string/Text_Info"
+
+Jag verifierade att allt såg ut som planerat och tog en skärmdump som är bifogad i projektet.
+
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -35,8 +49,3 @@ Bilder läggs i samma mapp som markdown-filen.
 
 ![](android.png)
 
-Läs gärna:
-
-- Boulos, M.N.K., Warren, J., Gong, J. & Yue, P. (2010) Web GIS in practice VIII: HTML5 and the canvas element for interactive online mapping. International journal of health geographics 9, 14. Shin, Y. &
-- Wunsche, B.C. (2013) A smartphone-based golf simulation exercise game for supporting arthritis patients. 2013 28th International Conference of Image and Vision Computing New Zealand (IVCNZ), IEEE, pp. 459–464.
-- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M.C., Regnell, B., Wesslén, A. (2012) Experimentation in Software Engineering, Berlin, Heidelberg: Springer Berlin Heidelberg.

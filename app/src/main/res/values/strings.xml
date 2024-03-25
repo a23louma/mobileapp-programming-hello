@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyAmazingApp</string>
+    <string name="Text_Info">This is my amazing app</string>
 </resources>
