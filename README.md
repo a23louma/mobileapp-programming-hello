@@ -18,6 +18,9 @@ android:text="@string/Text_Info"
 ```
 Jag verifierade att allt såg ut som planerat och tog en skärmdump som är bifogad i projektet.
 
+När jag skulle pusha mitt projekt insåg jag att det var mitt andra GitHub-konto som pushade. Detta
+löstes genom att ändra namn och e-postadress i Github Desktop. På grund av detta har vissa pushningar
+fel namn i GitHub.
 
 ![](android.png)
 
